@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding:0;
+}
+   
+body{
+    background: linear-gradient(rgba(248, 252, 44, 1),rgba(134, 252, 44, 1));
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+header{
+    margin-top:40px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid rgba(252, 86, 44, 1); 
+    padding-bottom: 30px ;
+    margin-bottom: 100px;
+    color: rgba(9, 73, 8, 1);
+}
+
+
+
+.logoimg{
+    width: 70px;
+    height: 70px;
+    padding-left: 60px;
+}
+
+.btn-main{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.getbtn{
+    border: none;
+    background-color: #337AB7;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+
+
+}
+
+.getbtn:hover{
+    background-color: rgba(33, 51, 156, 1);
+    font-weight: bolder;
+}
+
+.input-location{
+    font-size:45px;
+    text-align:center;
+    margin-top: 5em;
+
+}
+
+input{
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.block1{
+    font-size: 50px;
+    text-align:center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.midsection{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.tempicon{
+    padding-left: 40px;
+}
+
+.otherinfo{
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.min_temp{
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.currtemp{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.errblock{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(252, 86, 44, 1);
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(9, 73, 8, 1);
+}
+
+.backicon{
+    float: left;
+    width: 50px;
+    height:50px;
+    margin-left:40px;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color:  rgba(9, 73, 8, 1);
+    color: #ffffff;
+    padding: 10px;
+}
